@@ -1,28 +1,40 @@
 {
   "blogs": [
     {
-      "title": "My First Blog",
-      "author": "mario",
-      "body": "Hello World! This is my first blog post. I hope you like it! We are going to have a lot of fun learning to code! I am so excited to be a part of this community! I am going to be posting a lot of cool stuff, so stay tuned!",
-      "id": 1
+      "title": "Hej!",
+      "body": "Jag älskar Jonas!",
+      "author": "Anna",
+      "id": 6
     },
     {
-      "title": "Opening Party!",
-      "author": "yoshi",
-      "body": "The party is going to be lit! We are going to have a lot of fun! I can't wait to see you all there! It's going to be a blast! What are you most excited about? I am most excited about the food! I love food! I am going to eat so much! I can't wait to see you all there!",
-      "id": 2
+      "title": "Hejsan",
+      "body": "Jag älskar Anna!",
+      "author": "Jonas",
+      "id": 7
     },
     {
-      "title": "hello!",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ex metus, ultrices eget libero vitae, mollis pharetra lorem. In porttitor orci at turpis ornare lobortis. Suspendisse ut convallis lectus. Mauris id diam massa. Aliquam iaculis nisi tempor imperdiet molestie. Suspendisse tincidunt eros sed cursus eleifend. Aenean mattis enim metus, rhoncus placerat sapien laoreet a. Ut imperdiet, odio quis accumsan porttitor, sapien purus facilisis turpis, luctus tincidunt dui mi at dolor.\n\nDonec accumsan ex ac dictum condimentum. Fusce scelerisque magna eget tortor pretium condimentum. Donec efficitur nibh arcu, in efficitur nisi tempor ac. Morbi nunc sapien, dignissim in sagittis eu, blandit ac ligula. Vivamus consectetur turpis id ipsum volutpat, id vehicula dolor porttitor. Quisque commodo mattis mauris, id fringilla nibh lobortis vitae. Nam felis augue, egestas ac nunc ac, elementum pharetra lacus. Aliquam mollis, odio tempus aliquam accumsan, ipsum dolor luctus purus, vel vulputate turpis felis nec nibh.",
-      "author": "mario",
-      "id": 3
+      "title": "sasdasd",
+      "body": "aaaaaaaaaaaa",
+      "author": "Jonas",
+      "id": 8
     },
     {
-      "title": "Anna",
-      "body": "is very cool!",
-      "author": "yoshi",
-      "id": 5
+      "title": "Hejjjjjjjjjjj!",
+      "body": "Jag älskar Jonas!",
+      "author": "Anna",
+      "id": 9
+    },
+    {
+      "title": "aaaaaaaaa",
+      "body": "aaaaaaaaaaaaaa",
+      "author": "Anna",
+      "id": 10
+    },
+    {
+      "title": "Hello world?",
+      "body": "!!!!!!!!!",
+      "author": "Anna",
+      "id": 11
     }
   ]
 }

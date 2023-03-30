@@ -30,11 +30,11 @@ function App() {
             <Route exact path="/blogs/:id">
               <BlogDetails />
             </Route>
-            <Route exact path="/yoshi">
-              {data && <BlogList blogs={data.filter((blog) => blog.author === 'yoshi')} title="Yoshi's Blogs" />}
+            <Route exact path="/anna">
+              {data && <BlogList blogs={data.filter((blog => blog.author ==='Anna'))} title="Anna's Blogs" />}
             </Route>
-            <Route exact path="/mario">
-              {data && <BlogList blogs={data.filter((blog) => blog.author === 'mario')} title="Mario's Blogs" />}
+            <Route exact path="/jonas">
+              {data && <BlogList blogs={data.filter((blog) => blog.author === 'Jonas')} title="Jonas's Blogs" />}
             </Route>
             <Route path="*">
               <NotFound />
