@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Create from './Create';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import BlogDetails from './BlogDetails';
 
 // has to start with a capital letter
 // not a function, but a component
@@ -20,6 +21,9 @@ function App() {
             </Route>
             <Route exact path="/create">
               <Create/>
+            </Route>
+            <Route exact path="/blogs/:id">
+              <BlogDetails/>
             </Route>
           </Switch>
         </div>

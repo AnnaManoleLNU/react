@@ -49,3 +49,27 @@
   font-size: 20px;
   color: rgb(253, 132, 153);
 }
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: rgb(253, 132, 153);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0px;
+}
+
+/* .blog-details button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(253, 132, 153);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+} */
