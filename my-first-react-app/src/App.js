@@ -1,5 +1,7 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import Create from './Create';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // has to start with a capital letter
 // not a function, but a component
@@ -8,12 +10,21 @@ import Home from './Home';
 function App() {
   // you can write any valid JS before you return the JSX template
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
         <Navbar />
-      <div className="content">
-        <Home />
+        <div className="content">
+          <Switch>
+            <Route exact path="/">
+              <Home/>
+            </Route>
+            <Route exact path="/create">
+              <Create/>
+            </Route>
+          </Switch>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 
