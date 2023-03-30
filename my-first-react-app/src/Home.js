@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import BlogList from "./BlogList"
 
 const Home = () => {
@@ -12,6 +12,15 @@ const Home = () => {
     const newBlogs = blogs.filter(blog => blog.id !== id)
     setBlogs(newBlogs)
   }
+
+  // use data from the server or communicate with the server in here
+  // runs for every render
+  // be careful not to create an infinite loop
+  // use to fetch data from the server
+  useEffect(() => {
+    console.log('use effect ran')
+    console.log(blogs)
+  })
 
   return (
     <div className="home">
